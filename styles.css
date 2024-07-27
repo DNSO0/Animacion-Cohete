@@ -95,15 +95,14 @@ body {
     animation: llama 0.12s infinite;
 }
 
-
 .cohete .humo {
     position: absolute;
-    top: 38px; /* Alinea el humo con la base del cohete */
+    top: 0; /* Empieza desde la parte superior del contenedor */
     left: 50%;
-    transform: translateX(-50%); /* Centra el humo en el medio del cohete */
-    width: 400px; /* Ajusta el tamaño del área de humo */
-    height: 333px; /* Ajusta el tamaño del área de humo */
-    overflow: hidden; /* Oculta el humo que se sale del contenedor */
+    transform: translateX(-50%); /* Centra el humo horizontalmente */
+    width: 400px; /* Ajusta el tamaño del área de humo según sea necesario */
+    height: 300px; /* Ajusta la altura del área de humo para que ocupe más espacio */
+    overflow: visible; /* Permite que el humo se desborde y sea visible */
     pointer-events: none; /* Asegura que el humo no interfiera con otros elementos */
     z-index: 1; /* Asegura que el humo esté por debajo de la llama si es necesario */
 }
