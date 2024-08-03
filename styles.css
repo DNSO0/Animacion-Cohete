@@ -61,7 +61,7 @@ body {
     height: 40px;
     border-radius: 45%;
     background-color: var(--color-rojo-oscuro);
-    left: calc(50% - 25px);
+    left: calc(50% - 26px);
     top: 40px;
     border: 5px solid var(--color-gris-medio);
 }
@@ -86,12 +86,12 @@ body {
 }
 .cohete .llama {
     position: absolute;
-    top: 90%;
+    top: 100%;
     width: 28px;
     background: linear-gradient( to  bottom, transparent 10%, var(--color-blanco) 40%, transparent 80%, transparent 100%);
     height: 150px;
     border-radius: 0 0px 40px 40px;
-    left: calc(50% - 16px);
+    left: calc(50% - 13px);
     animation: llama 0.12s infinite;
 }
 
