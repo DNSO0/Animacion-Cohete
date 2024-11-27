@@ -62,10 +62,11 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 45%;
-    background-color: var(--color-azul-claro);
+    background-color: rgba(108, 207, 249, 0.6); /* Color azul claro semi-transparente */
     left: calc(50% - 26px);
     top: 40px;
     border: 5px solid var(--color-gris-medio);
+    backdrop-filter: blur(5px); /* Aplica el efecto de esmerilado */
 }
 .cohete .aleta {
     position: absolute;

@@ -19,4 +19,4 @@ Este proyecto es una demostración de un cohete interactivo utilizando HTML, CSS
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/DNSO0/Animacion-Cohete.git
+   git clone https://github.com/DNSO0/Animacion-Cohete.git 
